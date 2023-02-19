@@ -1,0 +1,58 @@
+body{
+    margin:0;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    
+    font-size: 70px;
+    color: rgb(238, 220, 57);
+    z-index: 1;
+    font-family: 源泉圓體;
+}
+.video_back{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.container {
+    background-color: #ccc;
+    position: relative;
+    height: 84px;
+    z-index: 0;
+}
+a {
+    z-index: 1;
+}
+ul{
+    list-style-type:none;
+    padding:0;
+    background-color: rgb(175, 55, 255);
+    overflow: hidden;
+}
+li{
+    float:left;
+    border-right: 1px solid black ;
+}
+li a{
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:Comic Sans MS ;
+    color:wheat;
+    text-align:center;
+    width: 100px;
+}
+li a:hover{
+    background-color: rgb(112, 112, 112);
+    color:black
+}
+nav{
+    position:absolute;
+    top: 0;
+}
